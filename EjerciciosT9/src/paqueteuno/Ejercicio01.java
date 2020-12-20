@@ -16,9 +16,10 @@ public class Ejercicio01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int[] respuestas = {1, 10, 11, 12, 12, 13, 16, 17, 18, 8, 9, 10};
-        String[] rangos = {"1-5", "6-10", "11-15", "16-20"};
-        int[] valoresRangos = new int[4];
+        int[] respuestas = {1, 10, 11, 12, 12, 13, 16, 17, 18, 8, 9, 10, 21, 27 
+                , 22,};
+        String[] rangos = {"1-5", "6-10", "11-15", "16-20", "21-27"};
+        int[] valoresRangos = new int[5];
         int respuesta;
         
         for (int i = 0; i < respuestas.length; i++) {
